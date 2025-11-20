@@ -1,0 +1,68 @@
+#include "resource.h"
+#include <windows.h>
+
+// Trackbar styles (from commctrl.h)
+#define TBS_AUTOTICKS           0x0001
+
+/////////////////////////////////////////////////////////////////////////////
+// Icon
+//
+IDI_AWAKEFOX        ICON    "res\\icon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+// Dialog
+//
+IDD_MAIN DIALOGEX 0, 0, 220, 180
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX
+CAPTION "AwakeFox"
+FONT 9, "Segoe UI", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Status", IDC_STATIC, 7, 7, 206, 50
+    LTEXT           "Stopped", IDC_STATIC_STATUS, 15, 22, 190, 12
+    LTEXT           "Runtime: 00:00:00", IDC_STATIC_RUNTIME, 15, 36, 90, 10
+    LTEXT           "Moves: 0", IDC_STATIC_MOVES, 110, 36, 95, 10
+
+    GROUPBOX        "Settings", IDC_STATIC, 7, 62, 206, 55
+    LTEXT           "Interval: 60 seconds", IDC_STATIC_INTERVAL, 15, 77, 190, 10
+    CONTROL         "", IDC_SLIDER_INTERVAL, "msctls_trackbar32", TBS_AUTOTICKS | WS_TABSTOP, 15, 90, 190, 20
+
+    AUTOCHECKBOX    "Minimize to system tray", IDC_CHECK_MINIMIZE, 15, 125, 190, 10
+
+    DEFPUSHBUTTON   "Start", IDC_BTN_STARTSTOP, 7, 145, 206, 28
+END
+
+/////////////////////////////////////////////////////////////////////////////
+// Version Info
+//
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION VER_MAJOR,VER_MINOR,VER_BUILD,0
+PRODUCTVERSION VER_MAJOR,VER_MINOR,VER_BUILD,0
+FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+FILEFLAGS 0x1L
+#else
+FILEFLAGS 0x0L
+#endif
+FILEOS 0x40004L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "JustFox"
+            VALUE "FileDescription", "AwakeFox - Keep your computer awake"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "AwakeFox.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2025 JustFox"
+            VALUE "OriginalFilename", "AwakeFox.exe"
+            VALUE "ProductName", "AwakeFox"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

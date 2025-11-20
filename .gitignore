@@ -1,0 +1,61 @@
+# Build outputs
+bin/
+obj/
+x64/
+x86/
+Debug/
+Release/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+ipch/
+
+# Build artifacts
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.log
+*.tlog/
+*.aps
+*.res
+*.exp
+*.lib
+*.sbr
+*.bsc
+*.cache
+*.recipe
+*.lastbuildstate
+
+# Profile Guided Optimization
+*.pgc
+*.pgd
+
+# Backup files
+*.bak
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Distribution
+dist/
+
+# Visual Studio upgrade logs
+UpgradeLog.htm
